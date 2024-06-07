@@ -1,0 +1,31 @@
+/* HEADER ELEMENTS */
+
+.header-container{
+    background: lightcyan;
+    color: black;
+    margin: auto;
+    padding: 5px ;
+}
+.header-container > h1{
+    margin: 0;
+}
+.home{
+    color: black;
+}
+
+/* CONTENT ELEMENTS */
+
+.list-container{
+    background: lightcyan;
+    padding: 5px ;
+}
+.list-container li{
+    padding: 5px;
+}
+li::marker{
+    color:blueviolet;
+}
+.list-container a{
+    color: darkred
+}
+
