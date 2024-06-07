@@ -1,16 +1,9 @@
 /* REMOVING MARGIN AND PADDING */
-body{
+body,ul{
     margin: 0px;
     padding: 0px;
 }
-ul{
-    margin: 0px;
-    padding: 0px;
-}
-ol{
-    margin: 0px;
-    padding: 0px;
-}
+
 /* HEADER ELEMENTS */
 
 .header-container{
@@ -41,21 +34,33 @@ ol{
     height: auto;
     border-radius: 5px;
 }
+ /* LIST CONTAINER */
+ /* YES I KNOW ITS A MESS */
 
 .list-container{
     background: lightcyan;
     padding: 5px ;
     text-align: center;
 }
-.list-container li{
+ul li{
+    /* background: red; */
     padding: 5px;
-    list-style-type: none;
 }
-li::marker{
+.list-container>li::marker{
     color:blueviolet;
 }
 .list-container a{
     color: darkred;
-
 }
 
+/* DIRECTIONS */
+#directions{
+    background: lightcyan;
+}
+#directions>p{
+    margin:0;
+    padding:0px 1rem;
+}
+#directions>ol{
+    text-align: left;
+}
